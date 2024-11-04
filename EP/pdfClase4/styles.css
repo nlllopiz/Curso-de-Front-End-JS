@@ -1,0 +1,22 @@
+header {
+    background-color: #4812b5;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 120%;
+}
+
+footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+}

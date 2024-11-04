@@ -1,0 +1,19 @@
+Ejercicio Práctico #1:
+Crear la estructura básica del proyecto, incluyendo las etiquetas <header>, <main>, <nav> y <footer>. Dentro de <header>, incluye un título <h1> con el nombre del proyecto.
+Para resolver este ejercicio, debés seguir estos pasos:
+    1. Abrir Visual Studio Code:
+        ○ Abre Visual Studio Code y creá un nuevo archivo.
+        ○ Guarda el archivo con el nombre index.html.
+    2. Escribir la estructura básica del documento HTML:
+        ○ A continuación, debés escribir el código HTML que conformará la estructura básica de tu proyecto. El código debe incluir las etiquetas <header>, <nav>, <main>, y <footer>.
+    3. Guardar y visualizar en el navegador:
+        ○ Guardá los cambios y abre el archivo index.html en tu navegador para ver la
+        estructura básica de la página web.
+
+Ejercicio Práctico #2:
+Agregar un archivo README.md en el proyecto, explicando brevemente de qué tratará la página que se va a desarrollar.
+Para resolver este ejercicio, debés crear un archivo README.md en tu proyecto con una breve descripción del mismo.
+    1. Crear el archivo README.md:
+        ○ Dentro del mismo directorio donde guardaste index.html, creá un nuevo archivo llamado README.md.
+    2. Escribir la descripción del proyecto:
+        ○ Abrí el archivo README.md en Visual Studio Code y escribí una breve descripción del proyecto.

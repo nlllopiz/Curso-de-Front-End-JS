@@ -1,0 +1,10 @@
+header {
+    background-image: url(img/header.jpg);
+    background-size: cover;
+}
+
+#seccionContacto {
+    background-image: url(img/encuentra.jpg);
+    background-size: cover;
+    color: white;
+}

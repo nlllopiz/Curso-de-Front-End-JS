@@ -1,0 +1,24 @@
+Ejercicio Práctico #1: Lista de Navegación.
+1. Crear una barra de navegación usando la etiqueta <nav>.
+2. El <nav> debe contener una lista desordenada con enlaces
+    Ejemplo: "Inicio", "Productos", "Contacto".
+Estos enlaces deberán simular una navegación interna en la página.
+
+Ejercicio 2: Inserción de Imagen y Video
+● Insertar una imagen en formato .png en el <header> para representar el logo del
+proyecto
+● Insertar una imagen y un iframe o video representativo en una <section> dentro del
+<main>.
+Asegurarse de agregar atributos alt para la imagen y subtítulos para el video.
+
+Pasos detallados:
+1. Descargar la Imagen:
+    ○ Busca una imagen adecuada para tu logo y guárdala en la misma carpeta que tu archivo HTML.
+    ○ Renombra la imagen como logo.png.
+2. Descargar el Video y Subtítulos:
+    ○ Encuentra un video representativo que quieras incluir en tu proyecto y descárgalo.
+    ○ Guarda el video en la misma carpeta y nómbralo video.mp4.
+    ○ Si el video no tiene subtítulos, puedes crear un archivo de subtítulos (.vtt) o utilizar uno disponible, y nombrarlo subtitulos.vtt.
+3. Incorporar la Imagen y Video en el HTML:
+    ○ Inserta la imagen en el <header> utilizando la etiqueta <img>.
+    ○ Inserta el video en el <main> utilizando la etiqueta <video> con el atributo controls, y asegúrate de incluir los subtítulos con la etiqueta <track>.

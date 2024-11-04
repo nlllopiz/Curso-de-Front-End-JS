@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+header nav li {
+    list-style: none;    
+}
+
+header nav a {
+   text-decoration: none;
+}
+
+#cursos {
+    background-color: blueviolet;
+    margin-top: 5px;
+    border: 15px solid red;
+    padding: 15px;
+}
+
+#cursos img {
+    width: 100%;
+}
+
+.tarjetas {
+    display: flex;
+    /*flex-direction: row; por defecto*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.tarjeta {
+    border: 1px solid violet;
+    padding: 2rem;
+    width: 200px;
+}
+
+header {
+    margin: 20px 10px 15px 35px;
+}
+
+
+

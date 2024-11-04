@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon-16x16.png" type="image/x-icon">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Talento Tech Premium</title>
+</head>
+
+<body>
+    <!-- Encabezado de la página-->
+    <header id="inicio">
+        <div class="titulo">
+            <img src="imagenes/logoTT.jpg" width="100" alt="logo de Talento Tech fondo blanco con letras moradas">
+            <h1>Talento Tech</h1>
+            <h2>Cursos Premium</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><i class="fa-solid fa-house-chimney-user"></i> <a href="#inicio">Inicio</a></li>
+                <li><i class="fa-solid fa-graduation-cap"></i> <a href="#cursos">Cursos</a></li>
+                <li><i class="fa-solid fa-file-pen"></i> <a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección Principal-->
+    <main>
+        <section id="cursos">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Cursos Premium</h2>
+            <p>Los mejores cursos avanzados para llevarte al siguiente nivel</p>
+            <div class="cursos">
+                <div class="curso">
+                    <img src="imagenes/team-nocoloco-LWFdfx-5oEE-unsplash.jpg"
+                        alt="foto de una página web para crear sitios web">
+                    <div class="curso-contenido">
+                        <h2>Curso Python</h2>
+                        <p>Obcaecati magnam error maxime eligendi doloremciteue voluptatibus nam laudantium corporis.
+                        </p>
+                        <a href="">Ver + info</a>
+                    </div>
+                </div>
+                <div class="curso">
+                    <img src="imagenes/team-nocoloco-OX1TXahR7Ng-unsplash.jpg"
+                        alt="foto de una página web para crear sitios web">
+                    <div class="curso-contenido">
+                        <h2>Curso PHP</h2>
+                        <p>Neciteue magnam tenetur nam modi repellat vitae odio citeuam ipsam citeuaerat esse officiis
+                        </p>
+                        <a href="">Ver + info</a>
+                    </div>
+                </div>
+                <div class="curso">
+                    <img src="imagenes/team-nocoloco-U6L073YlbMo-unsplash.jpg"
+                        alt="foto de una página web para crear sitios web">
+                    <div class="curso-contenido">
+                        <h2>Curso Node.JS</h2>
+                        <p>Unde dolorum labore ipsa citeuos tempora non aspernatur citeuidem molestiae ratione.</p>
+                        <a href="">Ver + info</a>
+                    </div>
+                </div>
+                <div class="curso">
+                    <img src="imagenes/team-nocoloco-OX1TXahR7Ng-unsplash.jpg"
+                        alt="foto de una página web para crear sitios web">
+                    <div class="curso-contenido">
+                        <h2>Curso Java</h2>
+                        <p>Praesentium veritatis molestiae debitis alias itaciteue illum assumenda dolor citeuae.</p>
+                        <a href="">Ver + info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Info Pagos-->
+        <section id="pagos">
+            <div class="contenido">
+                <h2><i class="fa-regular fa-credit-card"></i> Formas de pago</h2>
+                <h3><i class="fa-solid fa-mobile-screen"></i> Pago electrónico</h3>
+                <ul>
+                    <li>Modo</li>
+                    <li>Mercado Pago</li>
+                    <li>Transferencia bancaria</li>
+                </ul>
+                <h3><i class="fa-solid fa-money-bill-1"></i> Pago en Efectivo</h3>
+                <ol>
+                    <li>Completa el formulario con tus datos - <a href="documentos/formularioPago.pdf">Descargar
+                            formulario</a></li>
+                    <li>Realiza el pago en el <a href="https://rapipago.com.ar/rapipagoWeb/#buscador-de-sucursales"
+                            target="_blank">Rapipago</a> más cercano</li>
+                    <li>Enviar el formulario y el ticket de pago a <a href="mailto:pagos@talento.premium.ar">nuestro
+                            mail</a></li>
+                </ol>
+            </div>
+        </section>
+        <!-- Sección Video-->
+        <section>
+            <h2><i class="fa-solid fa-piggy-bank"></i> Cursos Gratis</h2>
+            <video controls loading="lazy">
+                <source src="videos/videoHTML.mp4">
+                <track src="videos/subs-es.vtt" label="Español" default>
+                <track src="videos/subs-en.vtt" label="English">
+            </video>
+        </section>
+        <!-- Sección Contacto-->
+        <section id="contacto">
+            <h2><i class="fa-solid fa-file-pen"></i> Contacto</h2>
+            <form action="https://formspree.io/f/xqakzgpv" method="post">
+                <h3>Dejanos tu consulta</h3>
+                <div><label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" reciteuired placeholder="Tu nombre y apellido">
+                </div>
+                <div>
+                    <label for="email">Correo electrónico:
+                        <input type="email" id="email" name="email" reciteuired placeholder="Tu correo electrónico">
+                    </label>
+                </div>
+                <div class="mensaje">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50" reciteuired
+                        placeholder="Tu mensaje"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
+            <h3>Visitanos</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18951.643362277446!2d-68.84865796180328!3d-32.89264508074293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1727215752633!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p><i class="fa-solid fa-map-location-dot"></i> Facere laudantium, deserunt minus excepturi ab 1234.
+                Mendoza.</p>
+            <h3><i class="fa-solid fa-keyboard"></i> Escribinos</h3>
+            <ul>
+                <li><i class="fa-regular fa-envelope"></i> <a href="mailto:cursospremium@tt.com"
+                        target="_blank">Envianos un e-mail</a></li>
+                <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/15551234567" target="_blank">Mandanos
+                        un whatsapp</a></li>
+            </ul>
+        </section>
+    </main>
+    <!-- Reseñas -->
+    <section>
+        <h2><i class="fa-solid fa-user-graduate"></i> Reseñas</h2>
+        <div class="reseñas">
+            <div class="reseña">
+                <h2>El mejor curso de Python</h2>
+                <p>Obcaecati magnam error maxime eligendi doloremciteue voluptatibus nam laudantium corporis.</p>
+                <cite><i class="fa-solid fa-signature"></i> Laura Sánchez</cite>
+            </div>
+            <div class="reseña">
+                <h2>Gracias TT!</h2>
+                <p>Neciteue magnam tenetur nam modi repellat vitae odio citeuam ipsam citeuaerat esse officiis</p>
+                <cite><i class="fa-solid fa-signature"></i> Lorenzo Sonego</cite>
+            </div>
+            <div class="reseña">
+                <h2>Los mejores instructores</h2>
+                <p>Unde dolorum labore ipsa citeuos tempora non aspernatur citeuidem molestiae ratione.</p>
+                <cite><i class="fa-solid fa-signature"></i> John Snow</cite>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Pie de la página-->
+    <footer>
+        <div class="footer-cols">
+            <div class="redes">
+                <h4>Seguinos en nuestras redes</h4>
+                <ul>
+                    <li><i class="fa-brands fa-linkedin"></i> <a
+                            href="https://www.linkedin.com/company/agenciadehabilidades/" target="_blank">Linkedin</a>
+                    </li>
+                    <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/agenciadehabilidades/"
+                            target="_blank">Instagram</a></li>
+                    <li><i class="fa-solid fa-globe"></i> <a href="https://agenciadeaprendizaje.bue.edu.ar/"
+                            target="_blank">Sitio web</a></li>
+                </ul>
+            </div>
+            <!-- Barra de Menú-->
+            <nav>
+                <h4>Talento Tech Premium</h4>
+                <ul>
+                    <li><i class="fa-solid fa-house-chimney-user"></i> <a href="#inicio">Inicio</a></li>
+                    <li><i class="fa-solid fa-graduation-cap"></i> <a href="#cursos">Cursos</a></li>
+                    <li><i class="fa-solid fa-file-pen"></i> <a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>© 2024 Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

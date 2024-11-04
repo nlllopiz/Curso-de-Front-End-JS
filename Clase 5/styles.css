@@ -1,0 +1,37 @@
+h1 {
+    color: coral;
+}
+
+p {
+    color: red;
+}
+
+h2 {
+    /* background-color: gray; */
+    background-color: gold;
+}
+
+form {
+    background-color: cadetblue;
+    color: red;
+}
+
+.parrafo-verde {
+    color: green;
+}
+
+#pagina-footer {
+    background-color: blueviolet;
+}
+
+#contacto {
+    background-color: aqua;
+}
+
+#cursos {
+    background-color: chocolate;
+}
+
+section {
+    background-color: bisque;
+}
