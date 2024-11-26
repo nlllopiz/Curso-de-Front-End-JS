@@ -1,25 +1,35 @@
+console.log("OK")
 
+const nombreUsuario = document.getElementById("nombre").value
 
-/* Tipos de datos */
-//String = cadena de caracteres
-console.log("Hola mundo 12345 $%& . , ")
-//Números 
-console.log(45)
-console.log(45.45678)
-//Booleanos  Boole
-//Verdader o Falso
-console.log(true)
-console.log(false)
+console.log(nombreUsuario)
 
-console.log(4587*4568-1245/78)
+const edadUsuario = document.getElementById("edad").value
+console.log(edadUsuario)
 
-console.log("Ahora en la clase somos: ", 340/2, "Yupiiiiiiiii")
+const parrafoSaludo = document.getElementById("saludo")
+//console.log(parrafoSaludo)
 
-let nombreCliente = "María" //operador de asignación
-var apellido //inicializar una variable
-apellido = "Pérez"
+parrafoSaludo.innerText = "Hola " + nombreUsuario
 
+const mayorDeEdad = document.getElementById("mayorDeEdad")
+//console.log(mayorDeEdad)
+mayorDeEdad.innerText = "Tenés " + edadUsuario + " años"
 
- 
+console.log(edadUsuario >= 18) // a + b
 
-console.log(nombreCliente, apellido)
+const esMayor = document.getElementById("esMayor")
+
+//esMayor.innerText = "Sos mayor de edad?: " + (edadUsuario >= 18)
+
+if (edadUsuario > 18 && edadUsuario < 41) {
+    esMayor.innerText = "Tiene un 20% de descuento en Vinos"
+}
+else if (edadUsuario > 40 && edadUsuario < 61) { //AND
+    esMayor.innerText = "Tiene un 40% de descuento en Vinos"
+} 
+else {
+    esMayor.innerText = "Sólo podés comprar agua y gaseosas"
+}
+
+// voy a tu casa en auto || en micro OR
