@@ -27,4 +27,4 @@ for (let i = 0; i < products.length; i++) {
         cartTotal += parseFloat(price);
         total.textContent = "$" + cartTotal;
     }
-}
+} 
